@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<!--
+    This Code arranged by Dogukan TUNCAY
+    github: https://github.com/DogukanTuncay
+    linkedin: 
+-->
+<body>
+    <div class="container">
+        <div class="text-center p-4 bg-dark text-light" id="time">Timer : 0</div>
+        <h1>
+            Screen Capture
+        </h1>
+        <video id="dene" width="320" height="240" class="border border-dark" autoplay>
+        </video>
+        <button id="start" class="btn btn-outline-dark" disabled>
+            Recording start
+        </button>
+        <button id="stop" class="btn btn-outline-dark" disabled>
+            Recording Stop
+        </button>
+        <a id="dow" href="#">
+            Download div
+        </a>
+        <button id="Resume" class="btn btn-outline-dark" disabled>
+            Resume
+        </button>
+        <button id="Pause" class="btn btn-outline-dark" disabled>
+            Pause
+        </button>
+        
+        <video style="display:none;" id="duration"></video>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
